@@ -66,7 +66,7 @@ sys.ledgpio("2")
 
 - Run brouser and browse to the ip given in configuration.
 - Choose "DAC" on "Settings" page and validate changes.
-![Screenshot of "Settings"](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/blob/Images/WebPage.png)
+![Screenshot of "Settings"](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/raw/master/Images/WebPage.png)
 - Congratulation, you can edit your own station list. Dont forget to save your stations list in case of problem or for new equipments.
 - if the AP is already known by the esp32, the default ip is given by dhcp.
 - a sample of stations list is on http://karadio.karawin.fr/WebStations.txt . Can be uploaded via the web page.
