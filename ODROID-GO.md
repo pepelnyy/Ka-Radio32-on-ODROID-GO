@@ -62,6 +62,7 @@ sys.lcd("194")
 sys.rotat("1")
 sys.tzo("x") where x is your time offset
 sys.ledgpio("2")
+sys.lcdout("x")	: Timer in seconds to switch off the lcd. 0= no timer
 ```
 
 - Run browser and browse to the ip given in configuration.
