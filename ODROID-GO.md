@@ -74,3 +74,4 @@ sys.lcdout("x")	: Timer in seconds to switch off the lcd. 0= no timer
 
 ## ENJOY!
 
+https://youtu.be/uuBrMle3xsQ
