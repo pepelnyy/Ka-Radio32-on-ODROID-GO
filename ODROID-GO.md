@@ -64,7 +64,7 @@ sys.tzo("x") where x is your time offset
 sys.ledgpio("2")
 ```
 
-- Run brouser and browse to the ip given in configuration.
+- Run browser and browse to the ip given in configuration.
 - Choose "DAC" on "Settings" page and validate changes.
 ![Screenshot of "Settings"](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/raw/master/Images/WebPage.png)
 - Congratulation, you can edit your own station list. Dont forget to save your stations list in case of problem or for new equipments.
