@@ -1,10 +1,13 @@
 # KaRadio32 on ODROID-GO
 
-odroid.csv and builds/odroid.bin could be using for to install [KaRadio32](https://github.com/karawin/Ka-Radio32) on [ODROID-GO](https://www.hardkernel.com/shop/odroid-go/) device.
+odroid.csv and builds/odroid.bin could be using for to install [KaRadio32](https://github.com/karawin/Ka-Radio32) by [**KaraWin**](https://github.com/karawin) on [ODROID-GO](https://www.hardkernel.com/shop/odroid-go/) device.
 
----------------
-Key map
----------------
+### Remarks
+1. On this stage it is necessary to reflash whole device to stwich from default firmware to KaRadio32 and back.
+2. The sound quality on built-in speaker is not very good. I strongly recommend to use some external DAC. I will tell about it below.
+
+## Key map
+
 In odroid.csv is defined following configuration:
 
 Key label    | Mapping
@@ -16,11 +19,10 @@ Key label    | Mapping
 "A"          | P_BTN0_C volume down (or previous station when "Menu" or "Volume" is toggled);
 "B"          | P_BTN0_B volume up (or next station when "Menu" or "Volume" is toggled);
 
-Remark: on my device "Volume" does not working.
+Remark: on my device button "Volume" does not working.
 
-----------------
-Flashing
-----------------
+## Flashing
+
 For install KaRadio32 on your ODROID-GO do following steps:
 1. Install "ESP32 download tool" (you can take it here <http://espressif.com/en/support/download/other-tools>);
 2. You might need to install the [USB-UART CP2104 VCP driver for Windows](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) when the ODROID turns on.
@@ -40,9 +42,7 @@ odroid.bin                     | 0x3a2000
 
 ![Screenshoot of download tool](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/raw/master/Images/Screenshot%20of%20ESP32%20DOWNLOAD%20TOOL.png)
 
-----------------
-On first start after flashing
-----------------
+## On first start after flashing
 
 - Connect your device to your PC and establish serial connection (use [Termite](https://www.compuphase.com/software_termite.htm), for example)
 - If the acces point of your router is not known, the webradio inits itself as an AP. Connect the wifi of your computer to the ssid "WifiKaRadio"  
@@ -71,6 +71,22 @@ sys.lcdout("x")	: Timer in seconds to switch off the lcd. 0= no timer
 - Congratulation, you can edit your own station list. Dont forget to save your stations list in case of problem or for new equipments.
 - if the AP is already known by the esp32, the default ip is given by dhcp.
 - a sample of stations list is on http://karadio.karawin.fr/WebStations.txt . Can be uploaded via the web page.
+
+## Using of external DAC
+
+_Work_ _in_ _progress_...
+
+### Update 01.20.2019
+
+You can OTA update to Pre 1.7 by console command (by telnet, for example)
+
+```
+sys.prerelease
+```
+
+Then you will be able switch stations (LEFT/RIGHT) and control volume (UP/DOWN) by D-PAD.
+
+But I do not recommend to do it before official release by [**KaraWin**](https://github.com/karawin).
 
 ## ENJOY!
 
