@@ -74,7 +74,7 @@ sys.lcdout("x")	: Timer in seconds to switch off the lcd. 0= no timer
 
 ## Using of external DAC
 
-_Work_ _in_ _progress_...
+
 
 ### Update 01.20.2019
 
