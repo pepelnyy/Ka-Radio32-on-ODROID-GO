@@ -44,7 +44,7 @@ odroid.bin                     | 0x3a2000
 
 ### Remark
 
-Temporarily I recommend take binaries from [here]() and do not OTA.
+Temporarily I recommend take binaries from [here](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/tree/master/binaries) and do not OTA.
 
 ## On first start after flashing
 
