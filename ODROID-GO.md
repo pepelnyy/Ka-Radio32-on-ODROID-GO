@@ -74,7 +74,10 @@ sys.lcdout("x")	: Timer in seconds to switch off the lcd. 0= no timer
 
 ## Using of external DAC
 
-_Work_ _in_ _progress_... [_Back_](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/blob/master/ODROID-GO.md#remarks)
+For improvement the sound you can use the [external I2S DAC](https://forum.odroid.com/viewtopic.php?f=158&t=31853#p231211)
+To activate it will need to edit the [odroid.csv]() according your wiring and compile and flash new odroid.bin to your device. You can learn yow to do it [here]().
+
+[_Back_](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/blob/master/ODROID-GO.md#remarks)
 
 ### Update 01.20.2019
 
