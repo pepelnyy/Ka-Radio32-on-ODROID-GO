@@ -81,15 +81,7 @@ To activate it will need to edit the [odroid.csv](https://github.com/karawin/Ka-
 
 ### Update 01.20.2019
 
-You can OTA update to Pre 1.7 by console command (by telnet, for example)
-
-```
-sys.prerelease
-```
-
-Then you will be able switch stations (LEFT/RIGHT) and control volume (UP/DOWN) by D-PAD.
-
-But I do not recommend to do it before official release by [**KaraWin**](https://github.com/karawin).
+On the next release we will be able switch stations (LEFT/RIGHT) and control volume (UP/DOWN) by D-PAD. Hurray!!!
 
 ## ENJOY!
 
