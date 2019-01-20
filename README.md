@@ -3,7 +3,7 @@
 odroid.csv and builds/odroid.bin could be using for to install [Ka-Radio32](https://github.com/karawin/Ka-Radio32) by [**KaraWin**](https://github.com/karawin) on [ODROID-GO](https://www.hardkernel.com/shop/odroid-go/) device.
 
 ### Remarks
-1. On this stage it is necessary to reflash whole device to stwich from default firmware to KaRadio32 and back.
+1. On this stage it is necessary to reflash whole device to switch from default firmware to KaRadio32 and back.
 2. The sound quality on built-in speaker is not very good. I strongly recommend to use some external DAC. I will tell about it [below](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/blob/master/README.md#using-of-external-dac).
 
 ## Key map
