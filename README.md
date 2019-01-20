@@ -42,6 +42,10 @@ odroid.bin                     | 0x3a2000
 
 ![Screenshoot of download tool](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/raw/master/Images/Screenshot%20of%20ESP32%20DOWNLOAD%20TOOL.png)
 
+### Remark
+
+Temporarily I recommend take binaries from [here]() and do not OTA.
+
 ## On first start after flashing
 
 - Connect your device to your PC and establish serial connection (use [Termite](https://www.compuphase.com/software_termite.htm), for example)
