@@ -1,6 +1,6 @@
-# KaRadio32 on ODROID-GO
+# Ka-Radio32 on ODROID-GO
 
-odroid.csv and builds/odroid.bin could be using for to install [KaRadio32](https://github.com/karawin/Ka-Radio32) by [**KaraWin**](https://github.com/karawin) on [ODROID-GO](https://www.hardkernel.com/shop/odroid-go/) device.
+odroid.csv and builds/odroid.bin could be using for to install [Ka-Radio32](https://github.com/karawin/Ka-Radio32) by [**KaraWin**](https://github.com/karawin) on [ODROID-GO](https://www.hardkernel.com/shop/odroid-go/) device.
 
 ### Remarks
 1. On this stage it is necessary to reflash whole device to stwich from default firmware to KaRadio32 and back.
