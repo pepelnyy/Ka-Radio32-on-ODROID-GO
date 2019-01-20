@@ -4,7 +4,7 @@ odroid.csv and builds/odroid.bin could be using for to install [KaRadio32](https
 
 ### Remarks
 1. On this stage it is necessary to reflash whole device to stwich from default firmware to KaRadio32 and back.
-2. The sound quality on built-in speaker is not very good. I strongly recommend to use some external DAC. I will tell about it [below](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/blob/Using-of-external-DAC/ODROID-GO.md#using-of-external-dac).
+2. The sound quality on built-in speaker is not very good. I strongly recommend to use some external DAC. I will tell about it [below](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/blob/master/ODROID-GO.md#using-of-external-dac).
 
 ## Key map
 
