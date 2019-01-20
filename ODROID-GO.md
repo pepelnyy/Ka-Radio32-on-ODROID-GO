@@ -74,7 +74,7 @@ sys.lcdout("x")	: Timer in seconds to switch off the lcd. 0= no timer
 
 ## Using of external DAC
 
-_Work_ _in_ _progress_...
+_Work_ _in_ _progress_... [_Back_](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/blob/master/ODROID-GO.md#remarks)
 
 ### Update 01.20.2019
 
