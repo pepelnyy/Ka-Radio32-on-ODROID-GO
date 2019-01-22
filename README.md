@@ -51,14 +51,14 @@ odroid-go.bin                  | 0x3a2000
 - In the gateway field, enter the ip address of your router.
 - Validate. The equipment restart to the new configuration.
 - Connect your wifi to your AP
-- if the AP is already known by the esp32, the default ip is given by dhcp.
+- If the AP is already known by the esp32, the default ip is given by dhcp.
 - You can find IP adress of your device on screen
 - Run browser and browse to the ip given in configuration.
-- Choose "DAC" on "Settings" page and validate changes. Your device will restart.
-![Screenshot of "Settings"](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/raw/master/Images/WebPage.png)
-- Refresh page. On "Settings" page you can ajust your Time Zone Offset (don't forget push "Validate").
+- Choose "DAC" on "Setting" page and validate changes. Your device will restart.
+![Screenshot of "Setting"](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/raw/master/Images/WebPage.png)
+- Refresh page. On "Setting" page you can ajust your Time Zone Offset (don't forget push "Validate" in that section).
 - Congratulation, you can edit your own station list. Dont forget to save your stations list in case of problem or for new equipments.
-- a sample of stations list is on http://karadio.karawin.fr/WebStations.txt . Can be uploaded via the web page.
+- A sample of stations list is on http://karadio.karawin.fr/WebStations.txt . Can be uploaded via the web page.
 - If you want to change time before screen will turn off when device is inactive
 - Connect to your device by telnet using this IP and port 23 (use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), for example).
 - Put following command in console
