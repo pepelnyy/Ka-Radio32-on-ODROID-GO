@@ -3,8 +3,8 @@
 Today we will install [Ka-Radio32](https://github.com/karawin/Ka-Radio32) by [**KaraWin**](https://github.com/karawin) on [ODROID-GO](https://www.hardkernel.com/shop/odroid-go/) device.
 
 ### Remarks
-1. On this stage it is necessary to reflash whole device to switch from default firmware to KaRadio32 and back.
-2. The sound quality on built-in speaker is not very good. I strongly recommend to use some external DAC. I will tell about it [below](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/blob/master/README.md#using-of-external-dac).
+1. On this stage it is necessary to reflash whole device to switch from default firmware to Ka-Radio32 and back.
+2. The sound quality on built-in speaker is not very good. I strongly recommend to use some external DAC. I will tell about it [below](https://github.com/pepelnyy/Ka-Radio32-on-ODROID-GO/blob/master/README.md#using-of-external-dac).
 
 ## Key map
 
@@ -25,7 +25,7 @@ Remark: on my device button "Volume" does not working.
 
 ## Flashing
 
-For install KaRadio32 on your ODROID-GO do following steps:
+For install Ka-Radio32 on your ODROID-GO do following steps:
 1. Install "ESP32 download tool" (you can take it here <http://espressif.com/en/support/download/other-tools>);
 2. You might need to install the [USB-UART CP2104 VCP driver for Windows](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) when the ODROID turns on.
 3. Download binaries from <https://github.com/karawin/Ka-Radio32/tree/master/binaries>;
@@ -42,7 +42,7 @@ partitions.bin                 | 0x8000
 bootloader.bin                 | 0x1000
 odroid-go.bin                  | 0x3a2000
 
-![Screenshoot of download tool](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/raw/master/Images/Screenshot%20of%20ESP32%20DOWNLOAD%20TOOL.png)
+![Screenshoot of download tool](https://github.com/pepelnyy/Ka-Radio32-on-ODROID-GO/raw/master/Images/Screenshot%20of%20ESP32%20DOWNLOAD%20TOOL.png)
 
 ## On first start after flashing
 
@@ -55,7 +55,7 @@ odroid-go.bin                  | 0x3a2000
 - You can find IP adress of your device on screen
 - Run browser and browse to the ip given in configuration.
 - Choose "DAC" on "Setting" page and validate changes. Your device will restart.
-![Screenshot of "Setting"](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/raw/master/Images/WebPage.png)
+![Screenshot of "Setting"](https://github.com/pepelnyy/Ka-Radio32-on-ODROID-GO/raw/master/Images/WebPage.png)
 - Refresh page. On "Setting" page you can ajust your Time Zone Offset (don't forget push "Validate" in that section).
 - Congratulation, you can edit your own station list. Dont forget to save your stations list in case of problem or for new equipments.
 - A sample of stations list is on http://karadio.karawin.fr/WebStations.txt . Can be uploaded via the web page.
@@ -72,7 +72,7 @@ sys.lcdout("x")	: Timer in seconds to switch off the lcd. 0= no timer
 For improvement the sound you can use the [external I2S DAC](https://forum.odroid.com/viewtopic.php?f=158&t=31853#p231211)
 To activate it you will need to edit the [odroid-go.csv](https://github.com/karawin/Ka-Radio32/tree/master/boards) according your wiring and compile and flash new odroid.bin to your device. You can learn how to do it [here](https://github.com/karawin/Ka-Radio32/blob/master/HardwareConfig.md#hardware-configuration-partition).
 
-[_Back_](https://github.com/pepelnyy/KaRadio32-on-ODROID-GO/blob/master/README.md#remarks)
+[_Back_](https://github.com/pepelnyy/Ka-Radio32-on-ODROID-GO/blob/master/README.md#remarks)
 
 ## ENJOY!
 
